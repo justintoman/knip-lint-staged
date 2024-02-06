@@ -1,0 +1,22 @@
+{
+  "name": "knip-lint-staged",
+  "version": "1.0.0",
+  "description": "Test repo for possible knip bug with lint-staged and husky",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint . --ignore-path .gitignore",
+    "prettier": "prettier --check .",
+    "knip": "knip",
+    "prepare": "husky"
+  },
+  "author": "Justin Toman",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "husky": "9.0.10",
+    "knip": "4.4.0",
+    "lint-staged": "15.2.2",
+    "prettier": "^3.2.5"
+  }
+}
